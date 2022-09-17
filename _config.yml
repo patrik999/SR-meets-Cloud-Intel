@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -18,21 +18,23 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Stream Reasoning meets Cloud-Edge Intelligence
-email: patrik999@gmail.com
-description: Stream Reasoning meets Cloud-Edge Intelligence
+title:  1st Stream Reasoning meets Cloud-Edge Intelligence Workshop
+email: mailinglist@organizers.org
+description: October 18-19, 2022
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
+markdown    : kramdown
+highlighter : false
 
 # Build settings
-#theme: minima
-#plugins:
-#  - jekyll-feed
-
-remote_theme: pages-themes/minimal@v0.2.0
+theme: minima
 plugins:
-- jekyll-remote-theme 
+  - jekyll-feed
+
+#remote_theme: pages-themes/minimal@v0.2.0
+#plugins:
+#- jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
